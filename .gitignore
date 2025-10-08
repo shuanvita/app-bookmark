@@ -7,6 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# local api and DB
+bookmark-api-windows-amd64.exe
+bookmarks.db
+
 node_modules
 .DS_Store
 dist
