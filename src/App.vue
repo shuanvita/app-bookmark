@@ -1,11 +1,13 @@
 <script setup lang="ts">
+import CategoryList from './components/CategoryList.vue';
 import ProfileAvatar from './components/ProfileAvatar.vue';
 </script>
 
 <template>
   <div class="flex gap-4 min-h-[calc(100vh-140px)] max-w-[1450px] mt-[140px] mx-auto">
     <nav class="min-w-[400px]">
-      <ProfileAvatar />
+      <ProfileAvatar class="mb-10" />
+      <CategoryList />
     </nav>
     <main>Контент</main>
   </div>

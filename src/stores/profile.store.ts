@@ -1,5 +1,5 @@
 import { API_ROUTES, http } from '@/api';
-import type { Profile } from '@/interfaces/profile';
+import type { Profile } from '@/interfaces/profile.interface';
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
 
